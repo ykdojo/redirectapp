@@ -25,7 +25,7 @@ SECRET_KEY = '3@hkcvin)d#97^^tmtv!&rl(54=%epmj!sd6oh#rab1da8#-_&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'editdojo.herokuapp.com']
 
 
 # Application definition
