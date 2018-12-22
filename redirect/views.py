@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.http import HttpResponseRedirect
 
-# Create your views here.
+def redirect_view(request):
+    return HttpResponseRedirect('https://github.com/ykdojo/editdojo')
